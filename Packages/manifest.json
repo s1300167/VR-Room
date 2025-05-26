@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.kiwrious.sdk.unity": "file:C:/Users/s1300167/Downloads/kiwrious-unity-package-main/kiwrious-unity-package-main",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.ide.rider": "3.0.34",
     "com.unity.ide.visualstudio": "2.0.22",
