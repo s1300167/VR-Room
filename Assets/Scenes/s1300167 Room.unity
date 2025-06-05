@@ -540,7 +540,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3054524473285231728, guid: 091cd3f1c6fbcb840baf5816764a8527,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2091716023}
+      addedObject: {fileID: 2091716027}
   m_SourcePrefab: {fileID: 100100000, guid: 091cd3f1c6fbcb840baf5816764a8527, type: 3}
 --- !u!4 &233949816 stripped
 Transform:
@@ -1224,6 +1224,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Action
       m_Flags: 0
+    - m_Name: 
+      m_Id: aedda1a7-4bca-4a2b-8834-1944406b593a
+      m_Path: <Keyboard>/g
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Action
+      m_Flags: 0
     m_Flags: 0
   OnPress:
     m_PersistentCalls:
@@ -1231,6 +1239,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1724960351}
         m_TargetAssemblyTypeName: ToggleRay, Assembly-CSharp
         m_MethodName: ActivateRay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2091716015}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1841,10 +1861,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 610159279}
-    - targetCorrespondingSourceObject: {fileID: 3054524473285231728, guid: 091cd3f1c6fbcb840baf5816764a8527,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 610159278}
   m_SourcePrefab: {fileID: 100100000, guid: 091cd3f1c6fbcb840baf5816764a8527, type: 3}
 --- !u!4 &610159276 stripped
 Transform:
@@ -1858,21 +1874,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 610159275}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &610159278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610159277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4756482460ffb41c4b54b2e1cdfd5f74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportPosition: {x: 0, y: 0, z: 0}
-  teleportRotation: {x: 0, y: 0, z: 0, w: 1}
-  playerRig: {fileID: 1313711681}
 --- !u!95 &610159279
 Animator:
   serializedVersion: 5
@@ -2578,6 +2579,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2091716015}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnRelease:
     m_PersistentCalls:
       m_Calls:
@@ -2824,15 +2837,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749350143}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.930552, y: 8.04, z: 2.38}
+  m_LocalRotation: {x: -0, y: -0.44940278, z: -0, w: 0.89332926}
+  m_LocalPosition: {x: 26.118744, y: 8.04, z: 2.8120043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1839886730}
   - {fileID: 644360986}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -53.411, z: 0}
 --- !u!1001 &809716070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2937,6 +2950,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.48071525, y: 0.004900736, z: 0.48071525}
   m_Center: {x: 0, y: 0.002450368, z: 0}
+--- !u!4 &809716076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8021973370165647725, guid: fb9ce3f53babdeb4990afa0d85fd4a65,
+    type: 3}
+  m_PrefabInstance: {fileID: 809716070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &816721679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3731,7 +3750,7 @@ PrefabInstance:
     - target: {fileID: 8021973370165647725, guid: fb9ce3f53babdeb4990afa0d85fd4a65,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.32
+      value: 6.2
       objectReference: {fileID: 0}
     - target: {fileID: 8021973370165647725, guid: fb9ce3f53babdeb4990afa0d85fd4a65,
         type: 3}
@@ -4108,7 +4127,7 @@ Transform:
   m_GameObject: {fileID: 1313711679}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.7, y: 6.21, z: -6.17}
+  m_LocalPosition: {x: 13.13, y: 6.21, z: -12.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4970,7 +4989,7 @@ PrefabInstance:
     - target: {fileID: 7766833644459571472, guid: 65e1b17be55fde04f921004e190ce003,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.24
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 7766833644459571472, guid: 65e1b17be55fde04f921004e190ce003,
         type: 3}
@@ -6798,6 +6817,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.67
       objectReference: {fileID: 0}
+    - target: {fileID: 6019699462626702714, guid: d9470993b9bd0a541a884d6f6704a421,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.964
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7022,7 +7046,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2091716023
+--- !u!114 &2091716027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7031,12 +7055,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2091716015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4756482460ffb41c4b54b2e1cdfd5f74, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b9c6a327855a4326a89bb756e5785ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportPosition: {x: 0, y: 0, z: 0}
-  teleportRotation: {x: 0, y: 0, z: 0, w: 1}
-  playerRig: {fileID: 1313711681}
+  teleportTarget: {fileID: 809716076}
+  xrRig: {fileID: 1313711681}
 --- !u!4 &2113022305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 738788138516379592, guid: 4eb9381a0b4804063a96dd9b29e1e57c,

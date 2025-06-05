@@ -3,7 +3,7 @@ using UnityEngine;
 public class TeleportOnButtonPress : MonoBehaviour
 {
     public Transform teleportTarget;  // マット上の目的地
-    public GameObject xrRig;          // XR Rig (XR Origin)
+    public Transform xrRig;          // XR Rig (XR Origin)
 
     public void TeleportPlayer()
     {
@@ -15,9 +15,11 @@ public class TeleportOnButtonPress : MonoBehaviour
 
             xrRig.transform.position = new Vector3(
                 targetPosition.x,
-                currentPosition.y,  // 地面と衝突しないように高さは保持
+                targetPosition.y,  // 地面と衝突しないように高さは保持
                 targetPosition.z
             );
         }
+
+      
     }
 }
